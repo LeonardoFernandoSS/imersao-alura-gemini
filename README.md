@@ -36,9 +36,9 @@ index.html
 ```
 
 - A pasta src contém os arquivos de código-fonte do projeto, incluindo:
- - Pasta css: Estilos para o site.
- - Pasta img: Imagens utilizadas no site.
- - Pasta js: Scripts JavaScript para funcionalidades do site.
+  - Pasta css: Estilos para o site.
+  - Pasta img: Imagens utilizadas no site.
+  - Pasta js: Scripts JavaScript para funcionalidades do site.
 - O arquivo index.html é o ponto de entrada do site e referencia os arquivos de código-fonte.
 
 ## Executando o Projeto
