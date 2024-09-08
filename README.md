@@ -11,6 +11,8 @@ Este projeto é um site pessoal para uma arquiteta de interiores chamada Ana Sal
 - Font Awesome: Conjunto de ícones para enriquecer a interface do site.
 
 ## Estrutura de Arquivos
+
+```
 src/
 ├── css/
 │   ├── button.css
@@ -31,6 +33,7 @@ src/
 │   ├── app.js
 │   └── data.js
 index.html
+```
 
 - A pasta src contém os arquivos de código-fonte do projeto, incluindo:
 -- Pasta css: Estilos para o site.
