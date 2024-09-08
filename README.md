@@ -1,5 +1,8 @@
 # A.S | Arquitetura de Interiores (imersao-alura-gemini)
-Este arquivo fornece uma visão geral do projeto [Nome do Projeto], incluindo suas dependências, estrutura de arquivos e instruções de execução.
+Este arquivo fornece uma visão geral do projeto A.S | Arquitetura de Interiores, incluindo suas dependências, estrutura de arquivos e instruções de execução.
+
+## Link Vercel
+[Acesse Aqui!](https://as-arquitetura-interiores.vercel.app/)
 
 ## Visão Geral
 Este projeto é um site pessoal para uma arquiteta de interiores chamada Ana Sales. O objetivo do site é apresentar seus serviços, projetos e informações de contato para potenciais clientes.
