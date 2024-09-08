@@ -1,0 +1,51 @@
+.button {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  column-gap: var(--small-gap);
+  padding: 12px;
+  color: var(--text-color-default);
+  border: 1px #2c2c2c solid;
+}
+
+.button > i {
+  color: white;
+}
+
+.button:hover > i {
+  color: var(--text-color-secondary);
+}
+
+.button:hover {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.secondary-button {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.secondary-button > i {
+  color: white;
+}
+
+.secondary-button:hover {
+  background-color: white;
+  color: #2c2c2c;
+}
+
+.secondary-button > i {
+  color: #2c2c2c;
+}
+
+.whatsapp-button {
+  background-color: #00ab88;
+  color: white;
+  border: 1px #02886d solid;
+}

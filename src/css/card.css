@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  padding: 24px;
+  column-gap: 24px;
+  background-color: #ffffff;
+  border: var(--border-default);
+  border-radius: var(--border-radius);
+}
+
+.card p {
+  color: var(--text-color-secondary);
+}
+
+.card img {
+  width: 160px;
+  height: 160px;
+  aspect-ratio: 1/1;
+}
+
+.horizontal-card {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: var(--small-gap);
+}
+
+@media (max-width: 480px) {
+  .card {
+    display: flex;
+    padding: 24px;
+    row-gap: var(--small-gap);
+    background-color: #ffffff;
+    border: var(--border-default);
+    border-radius: var(--border-radius);
+    flex-direction: column;
+  }
+
+  .card > img {
+    display: none;
+  }
+}

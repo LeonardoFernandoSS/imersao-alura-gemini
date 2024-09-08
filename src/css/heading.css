@@ -1,0 +1,73 @@
+h1 {
+  font-family: "Pompiere", sans-serif;
+  font-size: 60pt;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.subtitle {
+  font-family: "Dancing Script", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30pt;
+  color: var(--text-color-secondary);
+  text-align: center;
+}
+
+h2 {
+  
+  font-size: 30pt;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.subheading {
+  font-size: 14pt;
+  color: var(--text-color-secondary);
+}
+
+h3 {
+  font-size: 18pt;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40pt;
+  }
+
+  .subtitle {
+    font-size: 20pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+  }
+
+  .subheading {
+    font-size: 12pt;
+  }
+
+  h3 {
+    font-size: 18pt;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28pt;
+  }
+
+  .subtitle {
+    font-size: 16pt;
+  }
+
+  h2 {
+    font-size: 25pt;
+  }
+
+  .subheading {
+    font-size: 14pt;
+  }
+}

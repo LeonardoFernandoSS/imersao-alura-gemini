@@ -1,0 +1,30 @@
+nav {
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: var(--larger-gap);
+}
+
+nav > a {
+  text-decoration: none;
+  color: var(--text-color-secondary);
+}
+
+@media (max-width: 480px) {
+  nav {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: var(--medium-gap);
+  }
+
+  nav > a {
+    text-align: center;
+    min-width: 60px;
+  }
+}
